@@ -1,0 +1,28 @@
+
+#calculator{
+  width:200px;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color:palevioletred;
+}
+#display{
+  margin: 10px;
+  width: 85%;
+  color: blueviolet;
+  font-size: 30px;
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button{
+  width: 45px;
+  height: 45px;
+  margin:3px;
+  background-color: green;
+}
+button a:hover{
+  color: red;
+  font-size: 1.4rem;
+}
